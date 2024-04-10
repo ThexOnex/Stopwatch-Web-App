@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+
+body {
+    background-color: #122523;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Rubik", sans-serif;
+
+}
+
+.timer {
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    flex-direction: column;
+
+    font-size: 40px;
+    background-color: #001311;
+    color: white;
+    width: 250px;
+    min-width: 250px;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.538);
+
+}
+
+.btns1, .btns2 {
+    padding-top: 10px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button {
+    background-color: #03FEE3;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+    box-shadow: 2px 5px 15px rgba(0, 0, 0, 0.538);
+}
+button:hover {
+    background-color: #10271D;
+    color: #03FEE3;
+}
+#laps_data {
+    font-size: 20px;
+}
+
+/* 122523 bg body */
+/* 001311 bg card */
+/* 03FEE3  btns */
+/* 001311 btns font */
